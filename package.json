@@ -1,0 +1,29 @@
+{
+  "name": "workout_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-tracker:css": "./node_modules/postcss-cli/bin/postcss ./workout_project/tracker_app/static/tracker_app/css/styles.css -o ./workout_project/tracker_app/static/tracker_app/css/compiled.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erictempleton1/workout_tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erictempleton1/workout_tracker/issues"
+  },
+  "homepage": "https://github.com/erictempleton1/workout_tracker#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.4",
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.5",
+    "postcss-cli": "^8.3.1"
+  }
+}

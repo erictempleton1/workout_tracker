@@ -1,3 +1,6 @@
+{% extends "tracker_app/base.html" %}
+
+{% block content %}
 <h1>TrackerApp Home Page</h1>
 {% if user.is_authenticated %}
 <p>Hello, {{user.username}}</p>
@@ -6,3 +9,4 @@
 <a href="{% url 'tracker_app:login' %}">Login</a>
 <a href="{% url 'tracker_app:signup' %}">Signup</a>
 {% endif %}
+{% endblock %}
